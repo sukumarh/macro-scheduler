@@ -1,5 +1,5 @@
 # Macro Scheduler
-Powershell scripts to schedule multiple macros through Windows Task Scheduler.
+Powershell scripts to schedule multiple macros in multiple files through Windows Task Scheduler.
 
 
 ### Required
