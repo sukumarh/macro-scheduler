@@ -5,20 +5,19 @@
   <NotificationMessage>{0} executed.</NotificationMessage>
   <Files>
     <File>
-      <!-- <Path>C:\some-folder\excel_file.xlsm</Path> -->
-      <Path>C:\DevSpace\Macros\test_workbook_macro.xlsm</Path>
+      <Path>C:\some-folder\excel_file.xlsm</Path>
       <Macros>
         <Macro>Macro1</Macro>
-        <!-- <Macro>Macro2</Macro> -->
+        <Macro>Macro2</Macro>
       </Macros>
       <Label>Report1</Label>
     </File>
-    <!-- <File>
+    <File>
       <Path>C:\some-other-folder\excel_file_2.xlsm</Path>
       <Macros>
         <Macro>Macro3</Macro>
       </Macros>
       <Label>Report2</Label>
-    </File> -->
+    </File>
   </Files>
 </Configuration>
