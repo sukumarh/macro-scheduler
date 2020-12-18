@@ -31,11 +31,13 @@ In the `config.xml`, add the files that need to be triggered sequentially along 
 
 #### Notification level
 1. Macros
+    A notification will be triggered for each macro executed. 
     ```xml
       <NotifyFor>Macros</NotifyFor>
     ```
 
 2. Files
+    A notification will only be triggered once all the macros in the file is executed.
     ```xml
       <NotifyFor>Files</NotifyFor>
     ```
