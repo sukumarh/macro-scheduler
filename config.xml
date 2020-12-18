@@ -1,0 +1,24 @@
+<Configuration>
+  <Notifier>Sensei</Notifier>
+  <FileVisible>False</FileVisible>
+  <NotifyFor>Macros</NotifyFor>
+  <NotificationMessage>{0} executed.</NotificationMessage>
+  <Files>
+    <File>
+      <!-- <Path>C:\some-folder\excel_file.xlsm</Path> -->
+      <Path>C:\DevSpace\Macros\test_workbook_macro.xlsm</Path>
+      <Macros>
+        <Macro>Macro1</Macro>
+        <!-- <Macro>Macro2</Macro> -->
+      </Macros>
+      <Label>Report1</Label>
+    </File>
+    <!-- <File>
+      <Path>C:\some-other-folder\excel_file_2.xlsm</Path>
+      <Macros>
+        <Macro>Macro3</Macro>
+      </Macros>
+      <Label>Report2</Label>
+    </File> -->
+  </Files>
+</Configuration>
